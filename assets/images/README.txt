@@ -1,0 +1,1 @@
+Sample Image by Helena Lopes from Pexels: https://www.pexels.com/photo/white-horse-on-green-grass-1996333/
