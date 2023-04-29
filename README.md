@@ -21,17 +21,18 @@ oled | I2C object for Grove OLED Display
 ### display_write()
 Writes text or draws image as per user-defined requirements
 #### Inputs:
-oled | oled device object
-display_mode | 1 = write text, 0 = draw image (more options coming soon)
-clear_display | 1 = clear display before proceeding, 0 = do not clear
-#### Inputs if display_mode = 1
-column_start | starting point of columns (1 to 128)
-column_end | ending point of columns (1 to 128)
-page_start | starting point of pages (1 to 8)
-page_end | ending point of pages (1 to 8)
-font_scale | only 1 and 2 scales supported currently
-input_text | text to display on screen
-#### Inputs if display_mode = 0
-imagePath | load sample or provide path to image
-minThreshold | minimum (black) threshold of image
-maxThreshold | maximum (white) threshold of image
+oled | oled device object<br>
+display_mode | 1 = write text, 0 = draw image (more options coming soon)<br>
+clear_display | 1 = clear display before proceeding, 0 = do not clear<br>
+#### Inputs if display_mode = 1<br>
+column_start | starting point of columns (1 to 128)<br>
+column_end | ending point of columns (1 to 128)<br>
+page_start | starting point of pages (1 to 8)<br>
+page_end | ending point of pages (1 to 8)<br>
+font_scale | only 1 and 2 scales supported currently<br>
+input_text | text to display on screen<br>
+#### Inputs if display_mode = 0<br>
+imagePath | load sample or provide path to image<br>
+minThreshold | minimum (black) threshold of image<br>
+maxThreshold | maximum (white) threshold of image<br>
+<br>
