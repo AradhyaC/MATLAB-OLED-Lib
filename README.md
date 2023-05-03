@@ -5,7 +5,7 @@ NOTE: Currently only supports SSD1315 0.96" OLED screen included in the Grove Be
 Unpack and place the files in the same directory as your main code script to use the functions below.<br>
 For example, if you are making a thermostat your file directory should look like the following:
 
-***Thremostat Project Folder***<br>
+**Thremostat Project Folder**<br>
 │─ *thermostat.m*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(or whatever your main file is called)<br>
 │─ *Initialize_Oled.m*<br>
 │─ *display_write.m*<br>
