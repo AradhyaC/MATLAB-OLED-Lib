@@ -6,7 +6,7 @@ Unpack and place the files in the same directory as your main code script to use
 For example, if you are making a thermostat your file directory should look like the following:
 
 ***Thremostat Project Folder***<br>
-│─ *thermostat.m*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(or whatever your main file is called)<br>
+│─ *thermostat.m*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(or whatever your main file is called)<br>
 │─ *Initialize_Oled.m*<br>
 │─ *display_write.m*<br>
 │─ *test_write_draw.m*<br>
