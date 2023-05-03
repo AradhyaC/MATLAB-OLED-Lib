@@ -2,6 +2,22 @@
 NOTE: Currently only supports SSD1315 0.96" OLED screen included in the Grove Beginner Kit for Arduino however this code will be regurarly updated to include other OLEDs.
 
 ## Usage
+Unpack and place the files in the same directory as your main code script to use the functions below.
+For example, if you are making a thermostat your file directory should look like the following:
+
+***Thremostat Project Folder***<br>
+│─ *thermostat.m*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(or whatever your main file is called)<br>
+│─ *Initialize_Oled.m*<br>
+│─ *display_write.m*<br>
+│─ *test_write_draw.m*<br>
+│─ *clearDisplay.m*<br>
+│─ *LICENSE*<br>
+│─ *README.md*<br>
+│─ assets<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│─ images<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│─ characters<br>
+
+## Functions
 ### Initialize_Oled()
 Initializes and cleans up SSD1315 OLED Display provided with Grove Beginner Kit for Arduino.
 ```
@@ -18,14 +34,14 @@ Returns:
 oled | I2C object for Grove OLED Display
 a | Arduino object with I2C Library
 ```
-<br>_________________________________________________________________________________________<br>
+<br><br>
 ### clearDisplay()
 Clears OLED display
 ```
 Inputs:
 oled | I2C object for Grove OLED Display
 ```
-<br>_________________________________________________________________________________________<br>
+<br><br>
 ### display_write()
 Writes text or draws image as per user-defined requirements
 ```
