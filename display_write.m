@@ -124,7 +124,7 @@ if display_mode == 1
     end
     % Split and store larger scaled characters into equal 8x8 grids
     if font_scale > 1
-        [nan nan page] = size(Characters);
+        [~,~,page] = size(Characters);
         for i = 1:page
             scale_col_loc = 1;
             scale_row_loc = 1;
@@ -171,7 +171,7 @@ if display_mode == 1
         cId = strfind(import_characters,txt_to_print(i));
         % Handling larger font printing
         if font_scale > 1
-            [row,col,nan] = size(scaled_char(:,:,cId));
+            [row,col,~] = size(scaled_char(:,:,cId));
             for r = 1:row
                 for c = 1:col
                     % If text has space
