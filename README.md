@@ -1,5 +1,11 @@
 # MATLAB OLED Library
 NOTE: Currently only supports SSD1315 0.96" OLED screen included in the Grove Beginner Kit for Arduino however this code will be regurarly updated to include other OLEDs.
+## Prerequisites
+| Name | Description |
+| ---- | ----------- |
+| MATLAB | https://www.mathworks.com/products/matlab.html |
+| MATLAB Support Package for Arduino Hardware | https://www.mathworks.com/matlabcentral/fileexchange/47522-matlab-support-package-for-arduino-hardware |
+| Grove Cable of any size (only if you're using the Grove Beginner Kit for Arduino and you have removed the OLED from the base board *) | https://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-5-PCs-Pack-p-749.html |
 
 ## Usage
 Unpack and place the files in the same directory as your main code script to use the functions below.<br>
@@ -73,7 +79,7 @@ This is a test file for demonstration and testing.<br>The first two expected fun
 This file demonstrates the full functionality of the function library by creating a live clock face that displays date, time, city, timezone, and updates every minute.
 <br>
 ## Additional Notes
-In the case of the *Grove Beginner Kit for Arduino* you **do not** need to remove the OLED screen from the base board.
+* In the case of the *Grove Beginner Kit for Arduino* you **do not** need to remove the OLED screen from the base board.
 <br> In the case of the *Grove Beginner Kit for Arduino* the I2C Address of the OLED screen is the default ```0x3C```.
 <br> Only a font scale of 1 and 2 are currently supported by the function library.
 <br>
