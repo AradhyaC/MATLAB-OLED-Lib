@@ -28,7 +28,7 @@ For example, if you are making a thermostat your file directory should look like
 Initializes and cleans up SSD1315 OLED Display provided with Grove Beginner Kit for Arduino.
 ```
 Inputs:
-a | Arduino object (with or without I2C Library)<br>
+a | Arduino object (with or without I2C Library)
 print_ready | Displays ready statement if true
 ```
 ```
@@ -52,23 +52,23 @@ oled | I2C object for Grove OLED Display
 Writes text or draws image as per user-defined requirements
 ```
 Inputs:
-oled | oled device object<br>
-display_mode | 1 = write text, 0 = draw image (more options coming soon)<br>
-clear_display | 1 = clear display before proceeding, 0 = do not clear<br>
+oled | oled device object
+display_mode | 1 = write text, 0 = draw image (more options coming soon)
+clear_display | 1 = clear display before proceeding, 0 = do not clear
 ```
 ```
-Inputs if display_mode = 1<br>
-column_start | starting point of columns (1 to 128)<br>
-column_end | ending point of columns (1 to 128)<br>
-page_start | starting point of pages (1 to 8)<br>
-page_end | ending point of pages (1 to 8)<br>
-font_scale | only 1 and 2 scales supported currently<br>
-input_text | text to display on screen<br>
+Inputs if display_mode = 1
+column_start | starting point of columns (1 to 128)
+column_end | ending point of columns (1 to 128)
+page_start | starting point of pages (1 to 8)
+page_end | ending point of pages (1 to 8)
+font_scale | only 1 and 2 scales supported currently
+input_text | text to display on screen
 ```
 ```
-Inputs if display_mode = 0<br>
-imagePath | load sample or provide path to image<br>
-minThreshold | minimum (black) threshold of image<br>
+Inputs if display_mode = 0
+imagePath | load sample or provide path to image
+minThreshold | minimum (black) threshold of image
 maxThreshold | maximum (white) threshold of image
 ```
 ## Example files & Testing
@@ -79,7 +79,8 @@ This is a test file for demonstration and testing.<br>The first two expected fun
 This file demonstrates the full functionality of the function library by creating a live clock face that displays date, time, city, timezone, and updates every minute.
 <br>
 ## Additional Notes
-* In the case of the *Grove Beginner Kit for Arduino* you **do not** need to remove the OLED screen from the base board.
-<br> In the case of the *Grove Beginner Kit for Arduino* the I2C Address of the OLED screen is the default ```0x3C```.
+In the case of the *Grove Beginner Kit for Arduino* :
+1. you **do not** need to remove the OLED screen from the base board.
+2. the I2C Address of the OLED screen is the default ```0x3C```.
 <br> Only a font scale of 1 and 2 are currently supported by the function library.
 <br>
