@@ -1,4 +1,4 @@
-# MATLAB OLED Library
+# MATLAB OLED Display Interface Library
 NOTE: Currently only supports SSD1315 0.96" OLED screen included in the Grove Beginner Kit for Arduino.
 ## Prerequisites
 | Name | Description |
